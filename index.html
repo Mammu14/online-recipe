@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Platform</h1>
+    </header>
+    <main>
+        <section id="Quick Fish Curry Recipe ">
+            <h2> fish-Recipe</h2>
+            <form id="recipe-form">
+                <div>
+                    <label for="Fish curry">Title:</label>
+                    <input type="fish curry" id="fish-curry" name="fish curry" required>
+                </div>
+                <div>
+                    <label for="ingredients">Ingredients:</label>
+                    <textarea id="500g fish fillets (preferably white fish like cod or tilapia)" name="fish" required></textarea>
+                    <textarea id="2 tablespoons vegetable oil" name="oil" required></textarea>
+                    <textarea id="1 large onion, finely chopped" name="onion" required></textarea>
+                    <textarea id="2 garlic cloves, minced" name="minced" required></textarea>
+                    <textarea id="1-inch piece of ginger, minced" name="ginger" required></textarea>
+                    <textarea id="green chili, finely chopped (optional)" name="" required></textarea>
+                    <textarea id="1 teaspoon turmeric powder" name="turmeric" required></textarea>
+                    <textarea id="1 teaspoon cumin powder" name="cumin powder" required></textarea>
+                    <textarea id="1 teaspoon coriander powder" name="coriander powder" required></textarea>
+                    <textarea id="1 teaspoon garam masala" name="garam masala" required></textarea>
+                    <textarea id="1 teaspoon red chili powder (adjust to taste)" name="red chili" required></textarea>
+                    <textarea id="400g canned diced tomatoes" name="tomatoes" required></textarea>
+                    <textarea id="200ml coconut milk" name="coconut milk" required></textarea>
+                    <textarea id="Salt to taste" name="Salt" required></textarea>
+                    <textarea id="Fresh coriander leaves for garnish" name="coriander leaves" required></textarea>
+                </div>
+                <div>
+                    <label for="instructions">Instructions:</label>
+                    <textarea id="Prepare the Fish" name="Prepare" required></textarea>
+                    <textarea id="Cook the Base" name="Cook" required></textarea>
+                    <textarea id="Add Spices" name="Spices" required></textarea>
+                    <textarea id="Add Tomatoes" name="Tomatoes" required></textarea>
+                    <textarea id="Add Coconut Milk" name="Coconut Milk" required></textarea>
+                    <textarea id="Cook the Fish" name="cook Fish" required></textarea>
+                    <textarea id="Season and Garnish" name="Season and Garnish" required></textarea>
+                    <textarea id="serve" name="serve" required></textarea>
+                </div>
+                <div>
+                    <label for="chef Mamatha">Author:</label>
+                    <input type="Here's a step-by-step guide to making a quick and delicious fish curry" id="chef-Mamatha" name="Mamatha" required>
+                </div>
+                <button type="submit">Submit Recipe</button>
+            </form>
+        </section>
+        <section id="recipe-list">
+            <h2>all fish related</h2>
+            <input type="chef Mamatha" id="youtube" placeholder="Search recipes...">
+            <ul id="recipes"></ul>
+        </section>
+        <section id="recipe-details" style="display:none;">
+            <h2 id="fish-curry"></h2>
+            <p id="recipe-ingredients"></p>
+            <p id="recipe-instructions"></p>
+            <h3>Ratings</h3>
+            <ul id="ratings"></ul>
+            <form id="rating-form">
+                <input type="taste" id="5" placeholder="ruknesh" required>
+                <input type="123456789" id="rating-value" placeholder="5" min="1" max="5" required>
+                <button type="submit">Submit Rating</button>
+            </form>
+            <h3>Comments</h3>
+            <ul id="its esay to cook mam, like this we want more recipes"></ul>
+            <form id="andhra pradesh">
+                <input type="taste" id="ruknesh-15" placeholder="ruknesh" required>
+                <textarea id="taste" placeholder="easy to cook we want more recipes" required></textarea>
+                <button type="submit">Submit Comment</button>
+            </form>
+            <button id="back-button">Back to Recipes</button>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
